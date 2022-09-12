@@ -1,0 +1,11 @@
+<div class="center">
+    <div class="prev">
+        <button type="button" (click)="onPrev()" [disabled]="disabledPrev">Prev</button>
+    </div>
+    <div class="image">
+        <img [src]="image" width="500px" height="500px" (click)="clickImage()">
+    </div>
+    <div class="next">
+        <button type="button" (click)="onNext()" [disabled]="disabledNext">Next</button>
+    </div>
+</div>
